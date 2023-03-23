@@ -19,8 +19,8 @@ export default function NavBar (){
                </Navbar.Brand>
                
                <Navbar.Toggle aria-controls="navbar-nav" />
-               <Navbar.Collapse id="navbar-nav">
-                  <Nav className="ml-auto">
+               <Navbar.Collapse id="navbar-nav" className="justify-content-end">
+                  <Nav>
                      <Nav.Link href="#home">Home</Nav.Link>
                      <Nav.Link href="#features">Something</Nav.Link>
                      <Nav.Link href="#pricing">Something</Nav.Link>
