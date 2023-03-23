@@ -7,3 +7,11 @@
    background-color: white;
    padding: 1rem;
 }
+
+.navLink {
+   margin-right: 3rem;
+}
+
+.navLink:hover{
+   color: red;
+}
