@@ -3,26 +3,29 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import styles from './navBar/navBar.module.css'
 
 export default function NavBar (){
    return(
       <>
-         <Navbar className='navBar'>
+         <Navbar className={styles.navBar} expand='md'>
             <Container>
-               <Navbar.Brand href="#home">
+               <Navbar.Brand href="/">
                   <img 
                      src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Seneca_College_logo.svg/1200px-Seneca_College_logo.svg.png' 
-                     className='logo'
+                     className={styles.logo}
                      alt='Seneca' 
                   />
                </Navbar.Brand>
                
-               
-               <Nav className="ml-auto">
-                  <Nav.Link href="#home">Home</Nav.Link>
-                  <Nav.Link href="#features">Features</Nav.Link>
-                  <Nav.Link href="#pricing">Pricing</Nav.Link>
-               </Nav>
+               <Navbar.Toggle aria-controls="navbar-nav" />
+               <Navbar.Collapse id="navbar-nav">
+                  <Nav className="ml-auto">
+                     <Nav.Link href="#home">Home</Nav.Link>
+                     <Nav.Link href="#features">Something</Nav.Link>
+                     <Nav.Link href="#pricing">Something</Nav.Link>
+                  </Nav>
+               </Navbar.Collapse>
             </Container>
          </Navbar>
       </>
