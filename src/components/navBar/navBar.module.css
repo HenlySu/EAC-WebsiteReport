@@ -1,5 +1,6 @@
+/* First Navigation Bar */
 .logo {
-   height: 3rem;
+   height: 2.5rem;
    width: auto;
 }
 
@@ -15,4 +16,20 @@
 
 .navLink:hover{
    color: red;
+}
+
+/* Second NavBar */
+.background{
+   background-color: red;
+}
+
+.link {
+   text-align: center;
+   padding: 0.5rem;
+   font-weight: 500;
+   color: white;
+}
+
+.link:hover {
+   background-color: #333;
 }
