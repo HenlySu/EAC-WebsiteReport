@@ -25,9 +25,10 @@
 
 .link {
    text-align: center;
-   padding: 0.5rem;
    font-weight: 500;
    color: white;
+   margin-right: 2rem;
+   margin-left: 1rem;
 }
 
 .link:hover {
