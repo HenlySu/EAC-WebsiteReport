@@ -6,7 +6,7 @@ import styles from './slideShow.module.css'
 export default function SlideShow () {
    return (
       <>
-         <Container>
+         <Container className={styles.carousel}>
             <Carousel>
                {/* First Item */}
                <Carousel.Item>

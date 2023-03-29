@@ -21,14 +21,13 @@
 /* Second NavBar */
 .background{
    background-color: red;
+   padding: 0;
 }
 
 .link {
    text-align: center;
    font-weight: 500;
    color: white;
-   margin-right: 2rem;
-   margin-left: 1rem;
 }
 
 .link:hover {

@@ -1,6 +1,10 @@
 .img {
-   height: 40rem;
+
    object-fit: cover;
    max-width: 100%;
    height: auto;
+}
+
+.carousel{
+   padding: 0;
 }
