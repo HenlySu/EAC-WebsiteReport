@@ -1,0 +1,23 @@
+table, th, td {
+   border: 1px solid black;
+}
+
+th {
+   text-align: center;
+}
+
+h3 {
+   color: grey;
+}
+
+strong {
+   color: red;
+   font-size: 1.25rem;
+}
+
+.pic {
+   width: 70%;
+   display: block;
+   margin: auto;
+   padding: 10px;
+}

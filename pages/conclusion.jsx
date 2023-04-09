@@ -4,7 +4,10 @@ export default function Conclusion() {
    return (
       <>
          <Container>
+            <br />
             <h3>Conclusion</h3>
+            <br />
+
             <p>
                In summary, the first solution, LED lamps, saves more energy than incandescent 
                lamps, reducing carbon dioxide emissions. Furthermore, in the long run, LED 
@@ -28,6 +31,24 @@ export default function Conclusion() {
                Harnessing the full potential of trees in mitigating greenhouse gas emissions is a 
                critical component of achieving sustainable goals at Seneca. Under consideration, 
                the team has decided on the third option. 
+            </p>
+
+            <br />
+            <h3>Recommendation</h3>
+            <br />
+
+            <p>
+               For future steps, we will carry out publicity activities for the club, inform the 
+               students of our upcoming activities, and attract students willing to join us. Next, 
+               we will inspect the tree planting sites for suitable trees. This step will require 
+               professional pieces of advice from a botanist. We also need to have further planning 
+               for future actions involving how to judge the state of trees and control pests. Technical-wise, 
+               our website also requires an ongoing operation, which may involve volunteering or hiring a 
+               content planner, graphic designer, and technical staff. In addition, we can also do some 
+               extra work, such as getting in touch with local environmental protection organizations and 
+               asking questions about the details of our tree-planting actions. It is best to reach a 
+               cooperation with them so that it will be much easier for the team to get more professional 
+               guidance for our actions.
             </p>
          </Container>
       </>
