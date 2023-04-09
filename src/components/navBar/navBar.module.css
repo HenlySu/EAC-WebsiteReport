@@ -1,4 +1,3 @@
-/* First Navigation Bar */
 .logo {
    height: 2.5rem;
    width: auto;
@@ -11,25 +10,12 @@
 }
 
 .navLink {
-   margin-right: 2rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+
+   text-align: center;
 }
 
 .navLink:hover{
    color: red;
-}
-
-/* Second NavBar */
-.background{
-   background-color: red;
-   padding: 0;
-}
-
-.link {
-   text-align: center;
-   font-weight: 500;
-   color: white;
-}
-
-.link:hover {
-   background-color: #333;
 }
