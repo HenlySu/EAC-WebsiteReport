@@ -23,7 +23,7 @@ export default function NavBar (){
                   <Nav>
                      <Nav.Link href="/" className={styles.navLink}>Introduction</Nav.Link>
                      <Nav.Link href="/requirements" className={styles.navLink}>Requirements</Nav.Link>
-                     <Nav.Link href="/discussion" className={styles.navLink}>Solution</Nav.Link>
+                     <Nav.Link href="/solution" className={styles.navLink}>Solution</Nav.Link>
                      <Nav.Link href="/comparative" className={styles.navLink}>Comparative Analysis</Nav.Link>
                      <Nav.Link href="/summary" className={styles.navLink}>Summary</Nav.Link>
                      <Nav.Link href="/conclusion" className={styles.navLink}>Conclusion</Nav.Link>
