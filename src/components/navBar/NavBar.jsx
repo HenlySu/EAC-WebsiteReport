@@ -8,7 +8,7 @@ import styles from './navBar.module.css'
 export default function NavBar (){
    return(
       <>
-         <Navbar className={styles.navBar} expand='md'>
+         <Navbar className={styles.navBar} collapseOnSelect  expand='lg'>
             <Container>
                <Navbar.Brand href="/">
                   <img 
@@ -21,9 +21,13 @@ export default function NavBar (){
                <Navbar.Toggle aria-controls="navbar-nav" />
                <Navbar.Collapse id="navbar-nav" className="justify-content-end">
                   <Nav>
-                     <Nav.Link href="/" className={styles.navLink}>Home</Nav.Link>
-                     <Nav.Link href="https://students.senecacollege.ca/" className={styles.navLink}>MySeneca</Nav.Link>
-                     <Nav.Link href="#pricing" className={styles.navLink}>Something</Nav.Link>
+                     <Nav.Link href="/" className={styles.navLink}>Introduction</Nav.Link>
+                     <Nav.Link href="/requirements" className={styles.navLink}>Requirement</Nav.Link>
+                     <Nav.Link href="/discussion" className={styles.navLink}>Discussion</Nav.Link>
+                     <Nav.Link href="/comparative" className={styles.navLink}>Comparative</Nav.Link>
+                     <Nav.Link href="/summary" className={styles.navLink}>Summary</Nav.Link>
+                     <Nav.Link href="/conclusion" className={styles.navLink}>Conclusion</Nav.Link>
+                     <Nav.Link href="/recommendation" className={styles.navLink}>Recommendation</Nav.Link>
                   </Nav>
                </Navbar.Collapse>
             </Container>
