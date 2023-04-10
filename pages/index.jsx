@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import { Container } from "react-bootstrap"
 
 export default function Home(){
@@ -6,6 +8,13 @@ export default function Home(){
       <Container>
         <br />
         <h3>Introduction</h3>
+        <br />
+        <img 
+          src='https://photos.applyboard.com/school_photos/000/014/169/photos/original/SenecaCollegeNewnham-StudentLife-Jan2021.jpg?1659724028' 
+          alt='light bulbs'
+          className='firstPic'
+        />
+        <br />
         <br />
         <p>
           With the development of the global economy and the advancement of science and technology, sustainable 
@@ -62,9 +71,15 @@ export default function Home(){
              required essential material.
           </p>
 
+          <img 
+            src='/img/info.png' 
+            alt='milestones'
+            className='milestone'
+          />
+
           <p>
-             The Rating values are as follows. Reaching a milestone of 100, 500 and, 
-             1000, 5000 trees in the future. The number of volunteers registered in the club. 
+             The Rating values are as follows. Reaching a milestone of 100, 500, 
+             1000 and 5000 trees in the future. The number of volunteers registered in the club. 
              Listed and organized. Reaching a milestone of volunteers in 3 months, six months, 
              and nine months since the club was created.
           </p>

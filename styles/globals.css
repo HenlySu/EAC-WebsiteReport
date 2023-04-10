@@ -11,8 +11,17 @@ h3 {
 }
 
 strong {
-   color: red;
    font-size: 1.25rem;
+}
+
+strong, b {
+   color: red;
+}
+
+.firstPic {
+   object-fit: cover;
+   height: 500px;
+   width: 100%;
 }
 
 .pic {
@@ -20,4 +29,10 @@ strong {
    display: block;
    margin: auto;
    padding: 10px;
+}
+
+.milestone {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
 }

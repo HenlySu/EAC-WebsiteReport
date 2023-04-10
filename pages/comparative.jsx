@@ -143,6 +143,8 @@ export default function Comparative () {
                to avoid bugs. 
             </p>
 
+            <br />
+            <h3>Summary Table</h3>
             <SummaryTable />
          </Container>
       </>
